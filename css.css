@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Amatic+SC|Fredericka+the+Great|Raleway:700,400,400i,700');
+
+/*General ==============================================*/
+
+body, header, footer {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	align-content: center;
+}
+.pageContainer {
+	display: block;
+	max-width: 1280px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+hr {
+	border-top: 3px dotted grey;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+#mobileNav1, #mobileNav2, #mobileNav3 {
+	display: none;
+}
+/*======================================================*/
+
+
+/*General Text =========================================*/
+#titel {
+	font-family: 'Amatic SC', cursive;
+	font-size: 7em;
+	letter-spacing: 15px;
+	margin: 0px 0px auto auto;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-style: oblique;
+	text-decoration: underline;
+}
+/*======================================================*/
+
+
+/*Header, Footer & Navigation ==========================*/
+header {
+	text-align: center;
+	margin-bottom: 10px;
+	max-width: 1280px;
+	width: 100%;
+}
+nav, nav a {
+	font-family: 'Fredericka the Great', cursive;
+	color: black;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase; letter-spacing: 0.05em;
+	margin: auto;
+	word-spacing: 5px
+}
+.activePage {
+	opacity: 0.5;
+}
+footer, footer a {
+	max-width: 1280px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.75em;
+	line-height: 0.5em;
+	color: black;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+footer #toTop {
+	font-weight: bold;
+}
+/*======================================================*/
+
+
+/*Page Content =========================================*/
+
+/*Frontpage---------------------------------------------*/
+#frontImage {
+	display: block;
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	width: 100%;
+}
+#benSound {
+	display: block;
+	font-size: 8px;
+}
+
+/*Galleri-----------------------------------------------*/
+.pageContainerGallery {
+	display: block;
+	max-width: 1280px;
+	margin: auto;
+	text-align: center;
+}
+div.galleryImage {
+	display: inline-block;
+	margin: 75px;
+	max-width: 100%;
+	max-height: 100%;
+}
+div.galleryImage img {
+	max-width: 100%;
+	max-height: 100%;
+}
+div.galleryDesc {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.2em;
+}
+
+/*Utställningar-----------------------------------------*/
+#googleCalendar {
+	 border: none;
+	 max-width: 100%;
+	 max-height: 100%;
+	 height: 500px;
+	 width: 500px;
+	 margin: 20px;
+	 float: right;
+}
+#kalender {
+	 display: block;
+	 margin-left: 50px;
+	 max-width: 40%;
+	 max-height: 100%;
+	 height: 100%;
+	 width: 100%;
+	 float: right;
+}
+#kalender h2 {
+	margin: 0px;
+}
+#viktigaHandelser {
+	margin: 20px;
+	text-align: justify;
+	margin-top: 30px;
+	max-width: 800px;
+}
+#viktigaHandelser p {
+	margin-bottom: 40px;
+}
+
+/*Biografi----------------------------------------------*/
+#bioPortrait {
+	float: right;
+	margin-right: 20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	max-width: 40%;
+}
+.bioText {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	text-align: justify;
+	max-width: 800px;
+}
+.bioText p {
+	margin-bottom: 40px;
+}
+
+/*Kontakt-----------------------------------------------*/
+#pageContainerKontakt {
+	display: block;
+	max-width: 1280px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+#pageContainerKontakt h2 {
+	display: block;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+#besokStudion, #telefon, #eMail {
+	display: inline-flex;
+	max-width: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+#besokStudion p, #telefon p, #eMail p {
+	max-width: 600px;
+	margin-right: 20px;
+}
+#besokStudion {
+	margin-bottom: -40px;
+}
+#googleMap {
+	float: right;
+	max-width: 100%;
+	width: 600px;
+	margin: 20px;
+	margin-top: -20px;
+	border: none;
+}
+#telefonLogoContainer {
+	max-width: 100%;
+	width: 600px;
+	margin: 20px;
+	margin-bottom: -20px;
+	margin-top: -30px;
+}
+#telefonLogoContainer h2{
+	margin-left: 130px;
+	letter-spacing: 2px;
+}
+#telefonLogo, #telefonLogoMobil {
+	float: left;
+	margin-left: 20px;
+}
+#telefonLogo {
+	margin-top: 20px;
+}
+textarea, input {
+	resize: vertical;
+}
+textarea {
+	width: 98%;
+}
+fieldset {
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	width: 570px;
+	font-family: 'Raleway', sans-serif;
+}
+legend {
+	font-family: 'Playfair Display', serif;
+}
+/*======================================================*/
+
+/*Responsive Design ====================================*/
+@media only screen and (max-width: 800px) {
+	#besokStudion, #telefon, #eMail {
+	display: block;
+	}
+	#pageContainerKontakt h2 {
+		margin-top: 40px;
+	}
+	#telefonLogoContainer h2 {
+		display: inline-flex;
+	}
+	#telefonLogoContainer {
+    	margin-bottom: 20px;
+    	margin-top: 20px;
+	}
+	#pageContainerKontakt p {
+		max-width: 100%;
+		margin-right: 10px;
+	}
+	#googleMap {
+		float: none;
+    	display: block;
+		max-width: 700px;
+		width: 95%;
+		margin: auto;
+		margin-left: 0px;
+		margin-top: 20px;
+		margin-bottom: 70px;
+	}
+	fieldset {
+		max-width: 570px;
+		width: 90%;
+		height: 100%;
+		margin: auto;
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	#titel {
+		letter-spacing: normal;
+	}
+}
+
+@media only screen and (max-width: 655px) {
+ 	#mobileNav1 {
+	display: block;
+	}
+	#mobileNavDivider1 {
+		display: none;
+	}
+	#kalender {
+		float: none;
+		max-width: 95%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#kalender h2 {
+		margin-bottom: 10px;
+	}
+	#googleCalendar {
+		float: none;
+		width: 95%;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+    #titel {
+		font-size: 5em;
+	}
+	#googleCalendar {
+		width: 90%;
+	}
+	#telefonLogoContainer h2 {
+		margin-left: 40px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+    #titel {
+		font-size: 3em;
+	}
+	nav {
+		font-size: 0.8em;
+	}
+	#mobileNavDivider2 {
+		display: none;
+	}
+	#mobileNav3 {
+		display: block;
+	}
+	#telefonLogoContainer {
+		margin-left: -20px;
+	}
+	#telefonLogoContainer h2 {
+		margin-left: 20px;
+	}
+}
+/*======================================================*/
