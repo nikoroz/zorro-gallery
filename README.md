@@ -1,2 +1,3 @@
-# website
-Simple website for an artist.
+# Gallery for Zorromedsvardet
+A very simple website I made as a school assignment for an artist to show off some of their work.
+It's mostly filler text, the CSS is a mess and the e-mail form is not fully functional, it doesn't send anything anywhere.
