@@ -3,3 +3,6 @@ A very simple website I made as a school assignment for an artist to show off so
 It's mostly filler text, the CSS is a mess and the e-mail form is not fully functional, it doesn't send anything anywhere.
 
 The assignment was graded 'B'.
+
+
+**Gallery seems to be broken after Github-upload**
