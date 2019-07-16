@@ -5,4 +5,4 @@ It's mostly filler text, the CSS is a mess and the e-mail form is not fully func
 The assignment was graded 'B'.
 
 
-**Gallery seems to be broken after Github-upload**
+**Gallery thumbnails seem to be broken after Github-upload**
